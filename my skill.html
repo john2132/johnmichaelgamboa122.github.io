@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<style>
+    body{
+        background-image: url(images/ff.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .col-md-4{
+      border: solid;
+      background-image: url(images/ss.jpg);
+      width: 300px; 
+      height: 200px; 
+      border-width: 10px;
+      border-color: brown; 
+    }
+    .row{
+      flex: 0 0 calc(33.33% - 10px);
+      margin-right: 10px;
+    }
+    .container{
+      margin-left: 20%;
+      margin-top: 10%;
+    }
+    h2{
+      font-family: sans-serif;
+      font-weight: bold;
+      text-align: center;
+      font-size: xx-large;
+      color: aliceblue;
+    }
+    h3{
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: x-large;
+      color: aliceblue;
+    }
+  </style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Skills</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Selection
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a class="dropdown-item" href="my hobby.html">My Hobby</a></li>
+                  <li><a class="dropdown-item" href="My personal information.html">My personal information</a></li>
+                  <li><a class="dropdown-item" href="My portfolio.html">My Portfolio</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="personal website.html">Home</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <h1 style=" border: solid; font-family: sans-serif; text-align: center; border-width: 5px; border-color: crimson; background-color: aqua; width: 400px; margin-left: 40%; margin-top: 5%;">My Skills</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mx-5">
+          <h2>Fronty End</h2>
+          <h3>HTML</h3>
+          <h3>Bootstrap</h3>
+          <h3>PHP</h3>
+          <h3>CSS</h3>
+        </div>
+        <div class="col-md-4 mx-5">
+          <h2>Back End</h2>
+          <h3>SQL</h3>
+          <h3>JAVA</h3>
+          <h3>C++</h3>
+          <h3>Python</h3>
+        </div>
+        <div class="col-md-4 mx-5">
+          <h2>Soft Skill</h2>
+          <h3>Time Management</h3>
+          <h3>Collaboration</h3>
+          <h3>Problem solving</h3>
+        </div>
+      </div>
+    </div>
+<script src="bootstrap.min.js"></script>
+</body>
+</html>
